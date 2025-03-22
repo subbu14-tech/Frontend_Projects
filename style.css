@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: "Dancing Script",sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightgrey;
+}
+.poster{
+    width: 600px;
+    display: flex;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    gap: 1rem;
+    border-radius: 15px;
+}
+.poster img{
+border-radius: 10px;
+}
+h2{
+    text-align: left;
+    margin: 20px 0 20px 0;
+}
+p{
+    text-align: left;
+    margin-bottom: 20px;
+    color: gray;
+}
+.profile_session{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.profile_session img{
+    border-radius: 50%;
+}
+span{
+    display: block;
+    color: gray;
+}
